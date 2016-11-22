@@ -74,3 +74,4 @@ target_link_libraries(grep pcre)
 install(TARGETS grep
 	DESTINATION libexec/darling/bin)
 
+install(FILES grep.1 egrep.1 fgrep.1 DESTINATION libexec/darling/usr/share/man/man1)
