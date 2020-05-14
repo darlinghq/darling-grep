@@ -23,16 +23,6 @@ set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -include ${CMAKE_CURRENT_SOURCE_DIR}/grep/co
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/grep)
 include_directories(BEFORE ${CMAKE_CURRENT_SOURCE_DIR}/grep/lib)
-include_directories(${DARLING_TOP_DIRECTORY}/src/libc/include/FreeBSD)
-include_directories(${DARLING_TOP_DIRECTORY}/src/libc/include/NetBSD)
-include_directories(${DARLING_TOP_DIRECTORY}/src/libc/gen)
-include_directories(${DARLING_TOP_DIRECTORY}/src/libc/darwin)
-include_directories(${DARLING_TOP_DIRECTORY}/src/libc/stdtime/FreeBSD)
-include_directories(${DARLING_TOP_DIRECTORY}/src/launchd/liblaunch)
-include_directories(${DARLING_TOP_DIRECTORY}/src/external/libdispatch)
-include_directories(${DARLING_TOP_DIRECTORY}/src/external/zlib)
-include_directories(${DARLING_TOP_DIRECTORY}/src/external/bzip2)
-include_directories(${DARLING_TOP_DIRECTORY}/src/ncurses/include)
 include_directories(${DARLING_TOP_DIRECTORY}/src/external/pcre/pcre)
 
 include(InstallSymlink)
